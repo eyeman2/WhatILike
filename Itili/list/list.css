@@ -1,0 +1,121 @@
+.fa-plus{
+    font-size: xx-large;
+    color: darkorchid;
+}
+
+.add-item {
+    /* height: 32px;
+    width: 2rem; */
+    margin-left: 35%;
+}
+/* .add-item {
+    background: green;
+    border-radius: 100%;
+
+} */
+
+.item-add {
+    margin-left: 24%;
+    display: inline-block;
+    text-align: right;
+    width: 400px;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    padding-left: 2px
+}
+
+.item-add__input {
+    border: none;
+    width: 94%;
+    height: 24px;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.item-add__input:focus {
+    outline: none;
+}
+
+.item-add__search {
+    padding: 0;
+}
+
+.item-add__search:active,
+.item-add__search:hover {
+    color: unset;
+}
+
+.item-sort {
+    margin: 60px 60px;
+}
+
+.item-sort__lists {
+    margin-bottom: 10px;
+}
+
+.item-sort button {
+    /* margin-right: 10px; */
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: rgb(14, 120, 190);
+    font-size: 1.2rem;
+}
+
+.item-sort ~ button:active,
+.item-sort ~ button:hover {
+    color: rgb(134, 134, 10);
+}
+
+.item-sort button:focus {
+    outline: none;
+}
+
+.rated {
+    margin: 100px 60px
+}
+
+.backgrounds {
+    background-image: url('../images/shepherds-pie.jpg'), url('') url('../images/black-dahlia.jpg')
+}
+
+.good{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.medium {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.bad {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+img {
+    margin: 0;
+    width: 33vw;
+    display: inline-block;
+}

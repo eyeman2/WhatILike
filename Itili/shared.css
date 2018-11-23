@@ -1,0 +1,48 @@
+title {
+    font-family: 'PT Mono', monospace;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+body {
+    margin: 0;
+}
+.main-header{
+    background: rgb(240, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background: rgba(128, 128, 128, 0.87); */
+}
+/* 
+.main-header div {
+    display: flex;
+} */
+
+/* .main-nav {
+    display: flex;
+} */
+
+.main-header__brand {
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 2px
+}
+
+.main-nav__items {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+.main-nav__item {
+    /* display: flex; */
+    list-style: none;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: rgba(19, 77, 165, 0.651);
+}
